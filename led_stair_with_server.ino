@@ -2,11 +2,10 @@
 #include "WIFI.h"
 #include "Server.h"
 #include "MQTT.h"
+#include "Range.h"
 
 double val;
 bool go_backwards = false;
-int led = -1;
-int prev_led = -1;
 
 void setup() {
   Serial.begin(9600);
